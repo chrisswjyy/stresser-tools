@@ -1,0 +1,33 @@
+{
+  "name": "chris-ddos-tools",
+  "version": "1.0.0",
+  "description": "Multi Protocol Load Test Tool - HTTP/HTTPS, UDP, TCP, ICMP, SCTP, HTTP2, HTTP3, WebSocket, DNS, FTP, SMTP, SSH",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "load-test",
+    "stress-test",
+    "udp",
+    "tcp",
+    "http",
+    "https",
+    "http2",
+    "http3",
+    "websocket",
+    "dns",
+    "ftp",
+    "smtp",
+    "ssh",
+    "icmp",
+    "sctp"
+  ],
+  "author": "@chriswijaya",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "ws": "^8.13.0"
+  }
+}
+
